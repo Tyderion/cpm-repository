@@ -54,6 +54,9 @@ app.get("/api/v1/get/:([A-Za-z]+)", function(req, res) {
   console.log(req.params);
   name = req.params[0];
     client.get(store_prefix+name, function (error, code) {
+      print("error: " + error)
+    if (error)
+      next(error)
     console.log("got code: " + code);
     provider = "";
     if (code[0] == "p") {
@@ -73,20 +76,20 @@ app.get("/api/v1/getSimple/:([A-Za-z]+)", function(req, res) {
   console.log(req.params);
   name = req.params[0];
     client.get(store_prefix+name, function (error, code) {
-    if (error)
-      next(error)
-    console.log("got code: " + code);
-    provider = "";
-    if (code[0] == "p") {
-      provider = pastebin;
-    } else if (code[0] == "g") {
-      provider = github;
-    }
-    if (code !== null) {
-      res.send(code);
-    } else {
-      next("Code does not exist for " + name)
-    }
+        if (error)
+          next(error)
+        console.log("got code: " + code);
+        provider = "";
+        if (code[0] == "p") {
+          provider = pastebin;
+        } else if (code[0] == "g") {
+          provider = github;
+        }
+        if (code !== null) {
+          res.send(code);
+        } else {
+          next("Code does not exist for " + name)
+        }
       });
 });
 
