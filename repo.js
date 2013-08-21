@@ -8,17 +8,20 @@ store_prefix = "programs:"
 listname = "programlist"
 client = redis.createClient()
 
+github = "github"
+pastebin = "pastebin"
+
 
 // Add my programs to the store
-saveNewProgram("cpm", "wP9VAie2")
-saveNewProgram("master", "AKJKmswF")
-saveNewProgram("slave", "5KQuXrKU")
-saveNewProgram("relay", "QEvpL30r")
-saveNewProgram("client", "qUW9dPfG")
-saveNewProgram("order", "b4E68ZN5")
-saveNewProgram("tunnel", "MjqSE2RC")
-saveNewProgram("rect", "MzRUZcw6")
-saveNewProgram("archie", "H19M3mwm") // API
+saveNewProgram("cpm", "p:wP9VAie2")
+saveNewProgram("master", "p:AKJKmswF")
+saveNewProgram("slave", "p:5KQuXrKU")
+saveNewProgram("relay", "p:QEvpL30r")
+saveNewProgram("client", "p:qUW9dPfG")
+saveNewProgram("order", "p:b4E68ZN5")
+saveNewProgram("tunnel", "p:MjqSE2RC")
+saveNewProgram("rect", "p:MzRUZcw6")
+saveNewProgram("archie", "p:H19M3mwm") // API
 
 // client.set("blabla", "ABCDEF")
 
@@ -48,12 +51,18 @@ app.get("/test", function (req, res) {
 app.get("/test/:name")
 
 app.get("/api/v1/get/:([A-Za-z]+)", function(req, res) {
-  console.log(req.params)
-  name = req.params[0]
+  console.log(req.params);
+  name = req.params[0];
     client.get(store_prefix+name, function (error, code) {
-    console.log("got code: " + code)
+    console.log("got code: " + code);
+    provider = "";
+    if (code[0] == "p") {
+      provider = pastebin;
+    } else if (code[0] == "g") {
+      provider = github;
+    }
     if (code !== null) {
-      res.send({ name: name, code: code})
+      res.send({ name: name, code: code.substring(2), provider: pastebin});
     } else {
       next("Code does not exist for " + name)
     }
