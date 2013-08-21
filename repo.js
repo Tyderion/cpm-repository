@@ -78,21 +78,21 @@ app.get("/api/v1/getSimple/:([A-Za-z]+)", function(req, res) {
   client.get(store_prefix+name, function (error, code) {
     if (code == null) {
       res.send("Does not exist")
-    } else {}
-    console.log("got code: " + code);
-    provider = "";
-    if (code[0] == "p") {
-      provider = pastebin;
-    } else if (code[0] == "g") {
-      provider = github;
-    }
-    if (code !== null) {
-      res.send(code);
     } else {
-      next("Code does not exist for " + name)
+      console.log("got code: " + code);
+      provider = "";
+      if (code[0] == "p") {
+        provider = pastebin;
+      } else if (code[0] == "g") {
+        provider = github;
+      }
+      if (code !== null) {
+        res.send(code);
+      } else {
+        next("Code does not exist for " + name)
+      }
     }
-  }
-});
+  });
 });
 
 // app.get("/api/v1/get/:name");
