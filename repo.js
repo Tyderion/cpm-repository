@@ -30,6 +30,7 @@ app.configure(function(){
 
 
 app.param('name', function(req,res, next, name){
+  console.log("Got parameter!!!")
   client.get(store_prefix+name, function (error, code) {
     console.log("got code: " + code)
     if (code !== null) {
@@ -43,6 +44,8 @@ app.param('name', function(req,res, next, name){
 app.get("/test", function (req, res) {
   res.send("Hello World")
 });
+
+app.get("/test/:name")
 
 app.get("/api/v1/get/:name");
 
