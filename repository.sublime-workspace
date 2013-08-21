@@ -1,0 +1,929 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fu",
+				"function	function"
+			],
+			[
+				"default",
+				"defaultNodeData"
+			],
+			[
+				"Before",
+				"beforeEach"
+			],
+			[
+				"_",
+				"_removeLinksForNode"
+			],
+			[
+				"target",
+				"target_id"
+			],
+			[
+				"source",
+				"source_id"
+			],
+			[
+				"test",
+				"testData"
+			],
+			[
+				"tes",
+				"testNodeData"
+			],
+			[
+				"cand",
+				"candidate_nodes"
+			],
+			[
+				"Nod",
+				"NodeData"
+			],
+			[
+				"testNo",
+				"testNodeWithData"
+			],
+			[
+				"eau",
+				"equal"
+			],
+			[
+				"eq",
+				"equals"
+			],
+			[
+				"image",
+				"imagewidth"
+			],
+			[
+				"img",
+				"imagewidth"
+			],
+			[
+				"path",
+				"pathName"
+			],
+			[
+				"this",
+				"thisIteration"
+			],
+			[
+				"group",
+				"groupEnd"
+			],
+			[
+				"nodes",
+				"nodeselection"
+			],
+			[
+				"fonts-",
+				"font-style"
+			],
+			[
+				"script",
+				"script	<script>"
+			],
+			[
+				"resour",
+				"resource_or_scope"
+			],
+			[
+				"sign_in",
+				"sign_in_and_redirect"
+			],
+			[
+				"respon",
+				"respond_to"
+			],
+			[
+				"scale",
+				"scale_padding"
+			],
+			[
+				"Select",
+				"selectAll"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"scal",
+				"scale_padding"
+			],
+			[
+				"sca",
+				"scale_padding"
+			],
+			[
+				"bar",
+				"bar_height"
+			],
+			[
+				"selec",
+				"selectAll"
+			],
+			[
+				"scr",
+				"script	Tag"
+			],
+			[
+				"obst",
+				"obstacle_height"
+			],
+			[
+				"obstacle",
+				"obstacle_width"
+			],
+			[
+				"obsta",
+				"obstacle_height"
+			],
+			[
+				"obstacl",
+				"obstacle_height"
+			],
+			[
+				"cookie",
+				"cookiename"
+			],
+			[
+				"rec_h",
+				"rec_height"
+			],
+			[
+				"xoff",
+				"xoffset"
+			],
+			[
+				"yoff",
+				"yoffset"
+			],
+			[
+				"xof",
+				"xoffset"
+			],
+			[
+				"toggle",
+				"toggleMenu"
+			],
+			[
+				"create",
+				"createString"
+			],
+			[
+				"creat",
+				"createString"
+			],
+			[
+				"tempval",
+				"tempval"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/simplecoffee.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"build",
+				"Build: Build"
+			],
+			[
+				"snippeta ",
+				"Snippet: css-normalize"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"mardk",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"todo",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"discov",
+				"Package Control: Discover Packages"
+			],
+			[
+				"syntax html5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"reload",
+				"TernJS: Reload"
+			],
+			[
+				"remvoe",
+				"Emmet: Remove Tag"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"compi",
+				"Coffee: Compile File"
+			],
+			[
+				"comp",
+				"Set Syntax: Sublime Completions"
+			],
+			[
+				"compile",
+				"Coffee: Compile File"
+			],
+			[
+				"compil",
+				"Coffee: Compile File"
+			],
+			[
+				"coo",
+				"Coffee: Compile File"
+			],
+			[
+				"coff",
+				"Coffee: Compile File"
+			],
+			[
+				"intsall",
+				"Package Control: Install Package"
+			],
+			[
+				"cremov",
+				"Package Control: Remove Package"
+			],
+			[
+				"synt coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 306.0,
+		"history":
+		[
+			"sublime.log_commands(False)",
+			"sublime.log_commands(false)",
+			"console.clear()",
+			"console.clear)(",
+			"clear()",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(true)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/gabrielnadler/Sites/d3js/js/forceDirected.js",
+		"/Users/gabrielnadler/Documents/officialprojects/expresstest/Cakefile",
+		"/Users/gabrielnadler/Documents/officialprojects/expresstest/script.js",
+		"/Users/gabrielnadler/Documents/officialprojects/expresstest/package.json",
+		"/Users/gabrielnadler/Documents/officialprojects/expresstest/app.js",
+		"/Users/gabrielnadler/Documents/officialprojects/mobilepicking-ios/update_strings.py",
+		"/Users/gabrielnadler/Documents/officialprojects/mobilepicking-ios/MobileIsland - Lagerstandort bug notizen",
+		"/Users/gabrielnadler/Documents/Private/minerturtle/newturtle.lua",
+		"/Users/gabrielnadler/Documents/Private/minerturtle/archieturtle.lua",
+		"/Users/gabrielnadler/Documents/Private/minerturtle/api.lua",
+		"/Users/gabrielnadler/Documents/Private/computercraft/.git/COMMIT_EDITMSG",
+		"/Users/gabrielnadler/Documents/officialprojects/mobilepicking-ios/.git/COMMIT_EDITMSG",
+		"/Users/gabrielnadler/Documents/officialprojects/mobilepicking-ios/.git/MERGE_MSG",
+		"/Users/gabrielnadler/Documents/officialprojects/mobilepicking-ios/MobileIsland/Localizable.strings",
+		"/Users/gabrielnadler/Documents/officialprojects/mobilepicking-ios/.gitignore",
+		"/Users/gabrielnadler/Documents/officialprojects/MobileIsland - Lagerstandort bug notizen",
+		"/Users/gabrielnadler/Sites/d3js/test/link_spec.coffee",
+		"/Users/gabrielnadler/Sites/d3js/coffee/link.coffee",
+		"/Users/gabrielnadler/Sites/d3js/coffee/node.coffee",
+		"/Users/gabrielnadler/Sites/d3js/coffee/graph.coffee",
+		"/Users/gabrielnadler/Sites/d3js/test/graph_spec.coffee",
+		"/Users/gabrielnadler/Sites/d3js/.git/COMMIT_EDITMSG",
+		"/Users/gabrielnadler/Sites/d3js/test/nodesList_spec.coffee",
+		"/Users/gabrielnadler/Sites/d3js/test/linkWithNodes_spec.coffee",
+		"/Users/gabrielnadler/Sites/d3js/coffee/linkWithNodes.coffee",
+		"/Users/gabrielnadler/Sites/d3js/test/testHelper.coffee",
+		"/Users/gabrielnadler/Sites/d3js/test/nodedata_spec.coffee",
+		"/Users/gabrielnadler/Sites/d3js/graph.json",
+		"/Users/gabrielnadler/Sites/d3js/coffee/script.coffee",
+		"/Users/gabrielnadler/Sites/d3js/coffee/setup.coffee",
+		"/Users/gabrielnadler/Sites/d3js/coffee/eventHandlers.coffee",
+		"/Users/gabrielnadler/Sites/d3js/Cakefile",
+		"/Users/gabrielnadler/Sites/d3js/mocha.sh",
+		"/Users/gabrielnadler/.bash_profile",
+		"/Users/gabrielnadler/.bash_pr",
+		"/Users/gabrielnadler/Sites/d3js/test.sh",
+		"/Users/gabrielnadler/Sites/d3js/js/script.js",
+		"/Users/gabrielnadler/Sites/d3js/test/test_helper.coffee",
+		"/Users/gabrielnadler/Sites/d3js/test/FirstTest.coffee",
+		"/Users/gabrielnadler/Library/Application Support/Sublime Text 3/Packages/User/simplecoffee.sublime-build",
+		"/Users/gabrielnadler/Library/Application Support/Sublime Text 3/Packages/CoffeeScript/CoffeeScript.sublime-build",
+		"/Users/gabrielnadler/Documents/test/CoffeeScript/CoffeeScript.sublime-build",
+		"/Users/gabrielnadler/Sites/d3js/coffee/dataConnector.coffee",
+		"/Users/gabrielnadler/Sites/d3js/index.html",
+		"/Users/gabrielnadler/useful_stuff/dock.sh",
+		"/Users/gabrielnadler/bash_pr",
+		"/Users/gabrielnadler/Sites/d3js/test.html",
+		"/Users/gabrielnadler/Sites/d3js/css/style.css",
+		"/Users/gabrielnadler/Sites/d3js/coffee/play.coffee",
+		"/Users/gabrielnadler/Sites/d3js/coffee/collision.coffee",
+		"/Users/gabrielnadler/Sites/d3js/script.js",
+		"/Users/gabrielnadler/Sites/d3js/css/script.js",
+		"/Library/Preferences/com.apple.loginwindow.plist",
+		"/Users/gabrielnadler/Downloads/parameterized-start.sh",
+		"/Users/gabrielnadler/Sites/d3js/js/script.map",
+		"/Users/gabrielnadler/Sites/d3js/coffee/play.js",
+		"/Users/gabrielnadler/Sites/d3js/js/script.min.js",
+		"/Users/gabrielnadler/Sites/d3js/js/script.min.js.map",
+		"/Users/gabrielnadler/Sites/d3js/js/script-min.js.map",
+		"/Users/gabrielnadler/Sites/d3js/js/forceLayout.js",
+		"/Users/gabrielnadler/Sites/d3js/coffee/script.js",
+		"/Users/gabrielnadler/Sites/d3js/js/graph.coffee",
+		"/Users/gabrielnadler/Sites/d3js/js/eventHandlers.coffee",
+		"/Users/gabrielnadler/Sites/d3js/js/text-replacer.js",
+		"/Users/gabrielnadler/Sites/d3js/js/test.html",
+		"/Users/gabrielnadler/Sites/d3js/js/vendor/namey.js",
+		"/Users/gabrielnadler/Sites/d3js/js/vendor/script.js",
+		"/Users/gabrielnadler/Sites/d3js/js/vendor/faker.min.js",
+		"/Users/gabrielnadler/Sites/d3js/js/vendor/jquery-2.0.2.min.js",
+		"/Applications/Chromium.app/Contents/MacOS/parameterized-app.sh",
+		"/Users/gabrielnadler/Sites/d3js/js/forceDirected.coffee",
+		"/Users/gabrielnadler/Sites/d3js/.gitignore",
+		"/Users/gabrielnadler/Sites/d3js/js/dataConnector.coffee",
+		"/Users/gabrielnadler/Documents/Official Projects/discover-its-backend/app/controllers/users_controller.rb",
+		"/Users/gabrielnadler/Documents/Official Projects/discover-its-backend/app/controllers/session_controller.rb",
+		"/Users/gabrielnadler/Documents/Official Projects/discover-its-backend/app/controllers/sessions_controller_controller.rb",
+		"/Users/gabrielnadler/Documents/Official Projects/discover-its-backend/lib/tasks/generatefakeusers.rake",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/technology_test/d3js/graph.json",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/technology_test/d3js/js/text-replacer.js",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/technology_test/d3js/js/test.js",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/technology_test/d3js/js/test.coffee",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/technology_test/d3js/css/style.css",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/technology_test/d3js/js/myscript.js",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/technology_test/d3js/js/collision.coffee",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/technology_test/d3js/js/text-replacer.coffee",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/technology_test/d3js/js/d3.v3.min.js",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/xcode/Discover ITS/Discover ITS/HTML5/js/plugins.js",
+		"/Users/gabrielnadler/Documents/Official Projects/evoja-ios/fragen_notizen.txt",
+		"/Users/gabrielnadler/Documents/Official Projects/evoja-ios/.git/rebase-apply/patch",
+		"/Users/gabrielnadler/Documents/Official Projects/evoja-ios/.git/rebase-merge/git-rebase-todo",
+		"/Users/gabrielnadler/Documents/Official Projects/evoja-ios/.git/COMMIT_EDITMSG",
+		"/Users/gabrielnadler/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/gabrielnadler/git_stuff/.bash_pr",
+		"/Users/gabrielnadler/Library/Application Support/iPhone Simulator/6.1/Applications/CA51549E-7414-4829-981D-736D9DC68862/Documents/customers_v4.plist",
+		"/Users/gabrielnadler/Library/Application Support/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/Projektplan",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/xcode/Discover ITS/Projektplan",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/xcode/Discover ITS/Discover ITS/HTML5/test.js",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/xcode/Discover ITS/.git/COMMIT_EDITMSG",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/xcode/Discover ITS/Discover ITS/users.plist",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/xcode/Discover ITS/Discover ITS/projects.plist",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/xcode/Discover ITS/Podfile",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/xcode/Discover ITS/.gitignore",
+		"/Users/gabrielnadler/Desktop/test.txt",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/xcode/Discover ITS/Discover ITS/HTML5/project.js",
+		"/Users/gabrielnadler/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/gabrielnadler/Documents/Private/a-mazing-planner/index.html",
+		"/Users/gabrielnadler/Documents/Private/a-mazing-planner/html/mazeplanner.js",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/xcode/Discover ITS/.gitig",
+		"/Applications/Trillian.app/Contents/Info.plist",
+		"/Users/gabrielnadler/Dropbox/Swisscom/discover its/testmockup/index.html",
+		"/Users/gabrielnadler/Documents/Private/a-mazing-planner/.git/COMMIT_EDITMSG",
+		"/Users/gabrielnadler/Documents/Private/a-mazing-planner/vendor/demo.js",
+		"/Users/gabrielnadler/Documents/Private/a-mazing-planner/vendor/astar.js",
+		"/Users/gabrielnadler/Documents/Private/a-mazing-planner/vendor/graph.js",
+		"/Users/gabrielnadler/Documents/Private/a-mazing-planner/html/mazeplanner.html",
+		"/Users/gabrielnadler/Documents/Private/a-mazing-planner/vendor/astar.coffee",
+		"/Users/gabrielnadler/Documents/Private/a-mazing-planner/vendor/binaryheap.js",
+		"/Users/gabrielnadler/Documents/Private/a-mazing-planner/html/mazeplanner.css",
+		"/Users/gabrielnadler/Documents/Private/a-mazing-planner/html/start.coffee",
+		"/Users/gabrielnadler/Documents/Private/a-mazing-planner/vendor/html5slider.js",
+		"/Users/gabrielnadler/Documents/Private/a-mazing-planner/html/start.js",
+		"/Users/gabrielnadler/Library/Application Support/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/Users/gabrielnadler/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/gabrielnadler/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/gabrielnadler/Documents/Private/a-mazing-planner/vendor/cookie.jquery.js",
+		"/Users/gabrielnadler/Documents/Private/a-mazing-planner/vendor/jquery.min.js",
+		"/Users/gabrielnadler/Library/Application Support/Sublime Text 3/Packages/User/View In Browser.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open files>",
+			"coffee, test",
+			"coffee,test",
+			"",
+			"test",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"modified",
+			"Direction",
+			"end",
+			"function() return ",
+			"action",
+			"Direction",
+			"direction",
+			"back",
+			"left",
+			"Direction2D",
+			"Direction",
+			"init",
+			"sync",
+			"/\\*.*",
+			"tzhbaad6",
+			"with the id ex",
+			"exi",
+			"nodes",
+			"length.should.be.equal",
+			"length.should.equal",
+			"instanceof",
+			"node",
+			"@",
+			"new Link",
+			"testData.linked",
+			"node",
+			"removeLinksForNode",
+			"source",
+			"index",
+			"_removeLinksForNode",
+			"_removeNode",
+			"nod",
+			"Node",
+			"node",
+			"ind",
+			"index2",
+			"node",
+			"index",
+			"nod",
+			"index",
+			"target_id",
+			"source_id",
+			"id",
+			"_ >",
+			"Link",
+			"@link",
+			"Link",
+			"testNodeWithData",
+			"testNodeData",
+			"instnac\ninstnac\ninstnac\ntestNodeData",
+			"instnac\ninstnac\ninstnac\ninstnac\ntestNodeData",
+			"3",
+			"2",
+			"integer",
+			"nfe",
+			"Graph",
+			"root = exports ? window\nroot.Graph = Graph\n",
+			"testNodeData[0]",
+			"testNodeData",
+			"node",
+			"nod",
+			".skip",
+			"Graph",
+			"name",
+			"graph",
+			"in",
+			"this",
+			"testdata",
+			"defaultNode",
+			"defaultData",
+			"x",
+			"      if options.x?\n        @x = options.x\n",
+			"Test",
+			"FirstTest",
+			"First",
+			"x",
+			"testNode",
+			"new NodeData(testdata)",
+			"dup()",
+			"node1",
+			"node2",
+			"node1",
+			"image",
+			"node1",
+			"testdata.dup()",
+			"@node1",
+			"@node1.",
+			"name",
+			"@data",
+			"NodeData",
+			"name",
+			"@defaultData",
+			"@testdata",
+			"#{@",
+			"defaultData",
+			"testdata",
+			"->",
+			"name",
+			"radius",
+			"50",
+			"NodeData",
+			"default",
+			"?",
+			"\"$substitution\"",
+			"node1",
+			"be.ok",
+			"addTextWithPath",
+			"addPath",
+			"addImage",
+			"addCircle",
+			"text",
+			"image",
+			"circle",
+			"person",
+			"Node",
+			"node1",
+			"Task",
+			"root",
+			"$",
+			"Task",
+			"=",
+			"@",
+			"last",
+			"nodeselection",
+			"lastIteration\nlastIteration",
+			"lastIteration",
+			"vis",
+			"deal"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"testData",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"project": "repository.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"spec",
+				"test/nodedata_spec.coffee"
+			],
+			[
+				"graphsp",
+				"test/graph_spec.coffee"
+			],
+			[
+				"link.co",
+				"coffee/link.coffee"
+			],
+			[
+				"inkspec",
+				"test/link_spec.coffee"
+			],
+			[
+				"nodelist",
+				"test/nodesList_spec.coffee"
+			],
+			[
+				"linksp",
+				"test/link_spec.coffee"
+			],
+			[
+				"graphs",
+				"test/graph_spec.coffee"
+			],
+			[
+				"nodelistsp",
+				"test/nodesList_spec.coffee"
+			],
+			[
+				"graphspe",
+				"test/graph_spec.coffee"
+			],
+			[
+				"gr",
+				"coffee/graph.coffee"
+			],
+			[
+				"node.c",
+				"coffee/node.coffee"
+			],
+			[
+				"graph",
+				"coffee/graph.coffee"
+			],
+			[
+				"graph.",
+				"graph.json"
+			],
+			[
+				"cakefil",
+				"Cakefile"
+			],
+			[
+				"graphsep",
+				"test/graph_spec.coffee"
+			],
+			[
+				"node",
+				"coffee/node.coffee"
+			],
+			[
+				"cakefile",
+				"Cakefile"
+			],
+			[
+				"nodedat",
+				"test/nodedata_spec.coffee"
+			],
+			[
+				"m",
+				"mocha.sh"
+			],
+			[
+				"cake",
+				"Cakefile"
+			],
+			[
+				"mocha",
+				"mocha.sh"
+			],
+			[
+				"script",
+				"js/script.js"
+			],
+			[
+				"firste",
+				"test/FirstTest.coffee"
+			],
+			[
+				"helper",
+				"test/test_helper.coffee"
+			],
+			[
+				"first",
+				"test/FirstTest.coffee"
+			],
+			[
+				"cak",
+				"Cakefile"
+			],
+			[
+				"test",
+				"test/FirstTest.coffee"
+			],
+			[
+				"cakefi",
+				"Cakefile"
+			],
+			[
+				"sci",
+				"js/script.js"
+			],
+			[
+				"link",
+				"coffee/link.coffee"
+			],
+			[
+				"testht",
+				"test.html"
+			],
+			[
+				"setup",
+				"coffee/setup.coffee"
+			],
+			[
+				"scripjs",
+				"js/script.js"
+			],
+			[
+				"css",
+				"css/style.css"
+			],
+			[
+				"cs",
+				"coffee/setup.coffee"
+			],
+			[
+				"script.js",
+				"script.js"
+			],
+			[
+				"name",
+				"js/vendor/namey.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"configappy",
+				"config/application.yml"
+			],
+			[
+				"users",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"sesscon",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"sess",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"devise",
+				"config/initializers/devise.rb"
+			],
+			[
+				"userscont",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"deviserb",
+				"config/initializers/devise.rb"
+			],
+			[
+				"sessioncon",
+				"app/controllers/sessions_controller_controller.rb"
+			],
+			[
+				"coff",
+				"js/forceDirected.coffee"
+			],
+			[
+				"devise.r",
+				"config/initializers/devise.rb"
+			],
+			[
+				"deise.r",
+				"config/initializers/devise.rb"
+			],
+			[
+				"rake",
+				"lib/tasks/generatefakeusers.rake"
+			],
+			[
+				".rake",
+				"lib/tasks/generatefakeusers.rake"
+			],
+			[
+				"logger",
+				"app/controllers/logger_controller.rb"
+			],
+			[
+				"",
+				"project.coffee"
+			],
+			[
+				"tar",
+				"html/start.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/Swisscom/discover its/technology_test/discover-tests.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
