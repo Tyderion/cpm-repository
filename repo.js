@@ -44,7 +44,7 @@ app.get("/test", function (req, res) {
   res.send("Hello World")
 });
 
-app.get("/api/v1/getCode/:name");
+app.get("/api/v1/get/:name");
 
 app.get("/api/v1/list", function (req, res) {
   client.smembers(listname, function (error, result) {
@@ -69,6 +69,7 @@ app.post("/api/v1/publish", function(req, res) {
   }
   res.send("Need name and code to save the program")
 });
+
 
 
 app.listen(3000);
