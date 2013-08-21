@@ -14,6 +14,7 @@ pastebin = "pastebin"
 
 // Add my programs to the store
 saveNewProgram("cpm", "p:wP9VAie2")
+saveNewProgram("cpmtest", "g:Tyderion/6296195")
 saveNewProgram("master", "p:AKJKmswF")
 saveNewProgram("slave", "p:5KQuXrKU")
 saveNewProgram("relay", "p:QEvpL30r")
@@ -71,11 +72,11 @@ app.get("/api/v1/get/:([A-Za-z]+)", function(req, res) {
 
 // app.get("/api/v1/get/:name");
 
-// app.get("/api/v1/list", function (req, res) {
-//   client.smembers(listname, function (error, result) {
-//       res.send(result)
-//   })
-// });
+app.get("/api/v1/list", function (req, res) {
+  client.smembers(listname, function (error, result) {
+      res.send(result)
+  })
+});
 
 function saveNewProgram (name, code) {
   console.log("Saving " + code + " as " + name)
