@@ -13,13 +13,12 @@ pastebin = "pastebin"
 
 
 // Add my programs to the store
-saveNewProgram("cpm", "p:wP9VAie2")
-saveNewProgram("cpmtest", "g:Tyderion/6296195")
-saveNewProgram("master", "p:AKJKmswF")
-saveNewProgram("slave", "p:5KQuXrKU")
-saveNewProgram("relay", "p:QEvpL30r")
-saveNewProgram("client", "p:qUW9dPfG")
-saveNewProgram("order", "p:b4E68ZN5")
+saveNewProgram("cpm", "g:Tyderion/6296195")
+saveNewProgram("master", "g:Tyderion/6298100")
+saveNewProgram("slave", "g:Tyderion/6298113")
+saveNewProgram("relay", "g:Tyderion/6297743")
+saveNewProgram("client", "g:Tyderion/6298116")
+saveNewProgram("order", "g:Tyderion/6298119")
 saveNewProgram("tunnel", "p:MjqSE2RC")
 saveNewProgram("rect", "p:MzRUZcw6")
 saveNewProgram("archie", "p:H19M3mwm") // API
