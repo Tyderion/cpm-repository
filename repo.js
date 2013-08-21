@@ -73,6 +73,8 @@ app.get("/api/v1/getSimple/:([A-Za-z]+)", function(req, res) {
   console.log(req.params);
   name = req.params[0];
     client.get(store_prefix+name, function (error, code) {
+    if (error)
+      next(error)
     console.log("got code: " + code);
     provider = "";
     if (code[0] == "p") {
