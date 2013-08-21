@@ -49,6 +49,7 @@ app.get("/test/:name")
 
 app.get("/api/v1/get/([A-Za-z]+)", function(req, res) {
   console.log(req.params)
+  res.send("Got Ya!! xD")
 });
 
 // app.get("/api/v1/get/:name");
