@@ -29,9 +29,28 @@ app.configure(function(){
 });
 
 
-app.param('name', function(req,res, next, name){
-  console.log("Got parameter!!!")
-  client.get(store_prefix+name, function (error, code) {
+// app.param('name', function(req,res, next, name){
+//   console.log("Got parameter!!!")
+//   client.get(store_prefix+name, function (error, code) {
+//     console.log("got code: " + code)
+//     if (code !== null) {
+//       res.send({ name: name, code: code})
+//     } else {
+//       next("Code does not exist for " + name)
+//     }
+//       });
+// });
+
+app.get("/test", function (req, res) {
+  res.send("Hello World")
+});
+
+app.get("/test/:name")
+
+app.get("/api/v1/get/:([A-Za-z]+)", function(req, res) {
+  console.log(req.params)
+  name = req.params[0]
+    client.get(store_prefix+name, function (error, code) {
     console.log("got code: " + code)
     if (code !== null) {
       res.send({ name: name, code: code})
@@ -41,19 +60,13 @@ app.param('name', function(req,res, next, name){
       });
 });
 
-app.get("/test", function (req, res) {
-  res.send("Hello World")
-});
+// app.get("/api/v1/get/:name");
 
-app.get("/test/:name")
-
-app.get("/api/v1/get/:name");
-
-app.get("/api/v1/list", function (req, res) {
-  client.smembers(listname, function (error, result) {
-      res.send(result)
-  })
-});
+// app.get("/api/v1/list", function (req, res) {
+//   client.smembers(listname, function (error, result) {
+//       res.send(result)
+//   })
+// });
 
 function saveNewProgram (name, code) {
   console.log("Saving " + code + " as " + name)
