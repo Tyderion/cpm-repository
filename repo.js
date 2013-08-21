@@ -49,7 +49,15 @@ app.get("/test/:name")
 
 app.get("/api/v1/get/:([A-Za-z]+)", function(req, res) {
   console.log(req.params)
-  res.send("Got Ya!! xD")
+  name = req.params[0]
+    client.get(store_prefix+name, function (error, code) {
+    console.log("got code: " + code)
+    if (code !== null) {
+      res.send({ name: name, code: code})
+    } else {
+      next("Code does not exist for " + name)
+    }
+      });
 });
 
 // app.get("/api/v1/get/:name");
